@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Find My Player"
+        android:fontFamily="@font/berlin_sans"
+        android:textSize="40sp"
+        android:paddingBottom="100dp"
+        android:paddingTop="30dp"
+        android:gravity="center"
+        android:textColor="#93B4CD"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="E-mail"
+        android:textSize="40sp"
+        android:textColorHint="#93B4CD"
+        android:paddingTop="30dp"
+        android:fontFamily="@font/berlin_sans"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Password"
+        android:textSize="40sp"
+        android:textColorHint="#93B4CD"
+        android:paddingTop="30dp"
+        android:fontFamily="@font/berlin_sans"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginTop="30dp"
+        android:text="Login"
+        android:fontFamily="@font/berlin_sans"
+        android:layout_gravity="center"
+        android:background="#93B4CD"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/create"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Create New Account"
+        android:textAllCaps="false"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/berlin_sans"
+        android:layout_gravity="center"
+        android:background="@drawable/my_button_bg"/>
+
+
+
+</LinearLayout>
